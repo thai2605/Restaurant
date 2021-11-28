@@ -1,0 +1,141 @@
+@media (min-width:740px) and (max-width : 1024px) {
+    .slogan h1 {
+        font-size: 3.2rem;
+    }
+    .slogan {
+        top: 20%;
+        left: 15%;
+    }
+    .menu-bg {
+        height: 1100px;
+    }
+}
+
+@media  (max-width : 739px) {
+    .wrapper {
+        overflow: hidden;
+        margin-right: -34px;
+    }
+    .banner {
+        min-height: 450px;
+    }
+    .slogan {
+        top: 20%;
+        left: 7%;
+    }
+    .slogan h1 {
+        font-size: 2rem;
+    }
+    .slogan h3 {
+        font-size: 1.4rem;
+    }
+    .slogan a {
+        font-size: 1.8rem;
+    }
+    .menu_list {
+       width: 100%;
+    }
+    .section-contact {
+        left: 0;
+        width: 310px;
+    }
+    .content {
+        padding: 20px 0;
+        min-height: 800px;
+    }
+    .content-img {
+        height: 200px;
+    }
+    .content-img-item1 {
+        top: 10%;
+        left: 0;
+        width: 100%;
+    }
+    .content-img-item2 {
+        display: none;
+    }
+    .content .row {
+        flex-wrap: wrap;
+    }
+    .wave-bg {
+        display: none;
+    }
+    .content-contact  {
+        margin-left: 10px;
+    }
+    .form-contact div{
+        margin-bottom: 10px;
+    }
+    .form-contact {
+        padding: 0;
+    }
+    .message {
+        margin: 0;
+    }
+    .foot {
+        margin: 10px;
+    }
+    .foot-content p{
+        text-align: justify;
+        padding-right: 25px;
+    }
+    .team-modal-social  {
+        justify-content: start ;
+    }
+    .bold-separater {
+        display: none;
+    }
+    .enjoy-filter-list {
+        width: 100%;
+        flex-direction: column;
+    }
+    .enjoy-filter-item {
+        padding: 10px 0;
+    }
+    .menu-bg {
+        height: 1200px;
+    }
+}
+@media (max-width : 1024px) {
+    .banner2 {
+        height: 400px;
+    }
+    .banner2 {
+        min-height: 400px;
+    }
+    .section-contact {
+        top: 20%;
+
+    }
+    .menu_list {
+        position: absolute;
+        top: 10%;
+    }
+    .wrapper {
+        margin-right: -4px;
+    }
+    footer {
+        overflow: hidden;
+        margin-right: -4px;
+        height: 100%;
+    }
+
+    
+   
+   
+    .enjoy-filter {
+        width: 100%;
+    }
+    .enjoy-filter::before,
+    .enjoy-filter::after {
+        display: none;
+    }
+    .enjoy-filter-list {
+        width: 100%;
+    }
+    .enjoy-filter-list a {
+        font-size: 1rem;
+    }
+    
+    
+}

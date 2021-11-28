@@ -1,0 +1,144 @@
+:root {
+    --primary-color: RGB(193, 157, 96) ;
+}
+.slogan h4 {
+    font-size: 1.4rem;
+    font-weight: 400;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.slogan-title {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+    font-size: 3rem;
+    font-weight: 600;
+    padding: 20px 0 10px 0;
+    color: #fff ;
+}
+.banner1 {
+    background-image: url(https://media.truyenhinhdulich.vn/upload/news/7710_ban_co_biet_8_truong_phai_am_thuc_lon_cua_trung_qu_03031412072019.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    min-height: 500px;
+    position: relative;
+}
+.banner1::before {
+    content: "";
+    position: absolute;
+    background-color: rgba(0,0,0,0.6);
+    width: 100%;
+    height: 100%;
+}
+/* sectiom-menu */
+.sectiom-menu {
+    width: 100%;
+    padding-bottom: 50px ;
+}
+.menu-bg {
+    width: 100%;
+    position: relative;
+}
+.menu-bg img {
+    
+    
+}
+.menu-list {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+}
+.menu-list-item {
+    background-color: rgba(0,0,0,0.6);
+    width: 100%;
+}
+.menu-box {
+    width: 100%;
+    display: flex;
+    padding: 20px ;
+    margin-left: 10px;
+}
+.food-img {
+    width: 70px;
+    height: 70px;
+    overflow: hidden;
+    border-radius: 50%;
+    position: relative;
+    left: 0;
+    top: 0;
+    cursor: pointer;
+}
+.food-img::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.4);
+    transition: all 1s ease-in-out;
+    display: none;
+}
+.food-img img {
+    border-radius: 100%;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    transition: all 1s ease-in-out;
+}
+.food-img:hover img {
+    transform: scale(1.2);
+}
+.food-img:hover::after {
+    display: block;
+}
+.food-description {
+    padding: 10px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.food-description h3 {
+    font-size: 1.2rem;
+    color: #fff;
+    position: relative;
+}
+.food-description h3::before {
+    content: "";
+    position: absolute;
+    border-top: 1px dotted var(--primary-color);
+    width: 60%;
+    top: 100%;
+    right: 0;
+}
+.food-description p {
+    padding-top: 10px;
+    margin-right: 40px;
+    text-align: justify;
+    color: #cccccc;
+    font-weight: 500;
+
+}
+.food-price {
+    padding: 20px 0;
+    font-size: 1.3rem;
+    color: var(--primary-color);
+    font-weight: 500;
+    padding-right: 20px;
+}
+.smooth {
+    text-decoration: none;
+    padding: 20px;
+    width: 50px;
+    height: 50px;
+    background-color: antiquewhite;
+    color: brown;
+    border-radius: 50%;
+    position: fixed;
+    right: 15px;
+    bottom: 5%;
+    z-index: 1000;
+    text-align: center;
+}
+.smooth:hover {
+    opacity: 0.8;
+    transition: 1s;
+}

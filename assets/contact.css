@@ -1,0 +1,108 @@
+:root {
+    --primary-color: RGB(193, 157, 96) ;
+}
+.banner2 {
+   width: 100%;
+   min-height: 600px;
+   position: relative;
+}
+.banner2 img {
+    width: 100%;
+    height: 100%;
+}
+.banner2::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.4);
+}
+.section-contact {
+    position: absolute;
+    width: 400px;
+    height: 280px;
+    background-color: #212121;
+    top: 40%;
+    left: 10%;
+}
+.contact-detail {
+    max-width: 340px;
+    margin: auto;
+    height: 220px;
+    background-color: black;
+}
+.contact-detail h3 {
+    color: var(--primary-color);
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 30px;
+    font-weight: 400;
+    font-size: 1.3rem;
+    font-family: emoji;
+}
+.contact-list {
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    font-style: italic;
+    padding-top: 20px;
+}
+.contact-list i {
+    color: var(--primary-color);
+    padding: 0 10px;
+
+}
+.contact-list h4 {
+    color: var(--primary-color);
+
+}
+.contact-list span {
+    color: #fff;
+    font-size: 1.1rem;
+    font-family: emoji;
+    font-weight: 400;
+    cursor: pointer;
+}
+.contact-list span:hover {
+    color: var(--primary-color);
+    transition: all 0.5s ease-in-out;
+}
+
+.container-contact {
+    padding: 40px 0;
+}
+.content-contact {
+   
+}
+.content-contact h2 {
+    color: #fff;
+    font-size: 1.6rem;
+}
+.content-contact p {
+    color: var(--primary-color);
+    font-size: 1.6rem;
+}
+.content-contact .quote {
+    color: var(--primary-color);
+    font-size: 1.1rem;
+    font-family: initial;
+    padding: 20px 0;
+}
+.form-contact {
+    padding: 15px;
+}
+.form-contact input {
+    width: 100%;
+    height: 50px;
+    background-color:RGB(56, 56, 56);
+    outline:none;
+    padding: 10px;
+    color: #fff;
+    border: none;
+}
+.message {
+    width: 100%;
+    margin: 0 10px;    
+}
+
